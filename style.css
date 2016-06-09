@@ -1,122 +1,162 @@
 img#portrait {
-	width: 150px;
-	margin-top: 20px;
+    width: 150px;
+    margin-top: 20px;
 }
 
 img#dots {
-	width: 20px;
+    width: 20px;
 }
 
 .bottom {
-	line-height: 115px;
+    line-height: 115px;
 }
 
 .right {
-	text-align: right;
+    text-align: right;
 }
 
 .firstRow {
-	line-height: 50px;
+    line-height: 50px;
 }
 
 #portrait {
-	border-radius: 50%;
+    border-radius: 50%;
 }
 
 header span {
-	line-height: 65px;
-	font-size: 2em;
+    line-height: 65px;
+    font-size: 2em;
 }
 
 ul {
-	list-style-type: none;
+    list-style-type: none;
 }
 
 a {
-	text-decoration: none;
-	color: #4582EC;
+    text-decoration: none;
+    color: #4582EC;
 }
 
 a:hover {
-	text-decoration: none;
-	color: #5BC0DE;
+    text-decoration: none;
+    color: #5BC0DE;
 }
 
 .centered {
-	text-align: center;
+    text-align: center;
 }
 
 .row {
-	max-width: 100%;
+    max-width: 100%;
 }
 
-.col-sm-4, .col-sm-3, .col-sm-2 {
-	padding: 5px;
+.col-sm-4,
+.col-sm-3,
+.col-sm-2 {
+    padding: 5px;
 }
 
 #git {
-	background: url("./images/github.png");
-	background-size: 100%;
-	display: inline-block;
+    background: url("./images/github.png");
+    background-size: 100%;
+    display: inline-block;
     width: 90px;
     height: 90px;
 }
 
 #git:hover {
-	background: url("./images/githubH.png");
-	background-size: 100%;
-	display: inline-block;
+    background: url("./images/githubH.png");
+    background-size: 100%;
+    display: inline-block;
     width: 90px
 }
 
 #soft {
-	background: url("./images/su.png");
-	background-size: 100%;
-	display: inline-block;
+    background: url("./images/su.png");
+    background-size: 100%;
+    display: inline-block;
     width: 90px;
     height: 90px;
 }
 
 #soft:hover {
-	background: url("./images/suH.png");
-	background-size: 100%;
-	display: inline-block;
+    background: url("./images/suH.png");
+    background-size: 100%;
+    display: inline-block;
     width: 90px
 }
 
 #code {
-	background: url("./images/code.png");
-	background-size: 100%;
-	display: inline-block;
+    background: url("./images/code.png");
+    background-size: 100%;
+    display: inline-block;
     width: 90px;
     height: 90px;
 }
 
 #code:hover {
-	background: url("./images/codeH.png");
-	background-size: 100%;
-	display: inline-block;
+    background: url("./images/codeH.png");
+    background-size: 100%;
+    display: inline-block;
     width: 90px
 }
 
 .project {
-	padding-left: 35px;
+    padding-left: 35px;
 }
 
 body {
-	font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size: 18px;
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
 }
 
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-	font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 #portrait-container {
-	min-width: 150px;
-	padding: 0;
+    min-width: 150px;
+    padding: 0;
 }
 
 .push-top {
-	margin-top: 25px;
+    margin-top: 25px;
+}
+
+#gallery {
+    background-image: url("./images/gallery.jpg");
+}
+
+#social-network {
+    background-image: url("./images/sn.jpg");
+}
+
+#nak {
+    background-image: url("./images/inak.jpg");
+}
+
+
+.preview {
+    background-size: contain;
+    /*width: 500px;*/
+    height: 500px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
+.bolded {
+	font-weight: 500;
 }
