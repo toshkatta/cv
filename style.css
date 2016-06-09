@@ -1,9 +1,6 @@
-img#logo {
-	width: 100px;
-}
-
 img#portrait {
-	width: 150px
+	width: 150px;
+	margin-top: 20px;
 }
 
 img#dots {
@@ -14,11 +11,7 @@ img#dots {
 	line-height: 115px;
 }
 
-#rightBox {
-	padding-left: 30px;
-}
-
-#right {
+.right {
 	text-align: right;
 }
 
@@ -57,10 +50,6 @@ a:hover {
 	max-width: 100%;
 }
 
-#project {
-	padding-left: 35px;
-}
-
 .col-sm-4, .col-sm-3, .col-sm-2 {
 	padding: 5px;
 }
@@ -69,58 +58,65 @@ a:hover {
 	background: url("./images/github.png");
 	background-size: 100%;
 	display: inline-block;
-    width: 80px;
-    height: 80px;
+    width: 90px;
+    height: 90px;
 }
 
 #git:hover {
 	background: url("./images/githubH.png");
 	background-size: 100%;
 	display: inline-block;
-    width: 80px
-}
-
-#face {
-	background: url("./images/face.png");
-	background-size: 100%;
-	display: inline-block;
-    width: 80px;
-    height: 80px;
-}
-
-#face:hover {
-	background: url("./images/faceH.png");
-	background-size: 100%;
-	display: inline-block;
-    width: 80px
+    width: 90px
 }
 
 #soft {
 	background: url("./images/su.png");
 	background-size: 100%;
 	display: inline-block;
-    width: 80px;
-    height: 80px;
+    width: 90px;
+    height: 90px;
 }
 
 #soft:hover {
 	background: url("./images/suH.png");
 	background-size: 100%;
 	display: inline-block;
-    width: 80px
+    width: 90px
 }
 
 #code {
 	background: url("./images/code.png");
 	background-size: 100%;
 	display: inline-block;
-    width: 80px;
-    height: 80px;
+    width: 90px;
+    height: 90px;
 }
 
 #code:hover {
 	background: url("./images/codeH.png");
 	background-size: 100%;
 	display: inline-block;
-    width: 80px
+    width: 90px
+}
+
+.project {
+	padding-left: 35px;
+}
+
+body {
+	font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 18px;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+	font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#portrait-container {
+	min-width: 150px;
+	padding: 0;
+}
+
+.push-top {
+	margin-top: 25px;
 }
