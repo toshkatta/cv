@@ -109,6 +109,7 @@ body {
     font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 18px;
     background-color: #F3F3F3;
+    font-family: Tahoma, sans-serif;
 }
 
 h1,
@@ -157,7 +158,7 @@ h6,
 }
 
 .bolded {
-    font-weight: 500;
+    font-weight: 600;
 }
 
 #hideAll {

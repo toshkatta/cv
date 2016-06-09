@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Тодор Атанасов CV</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap-theme.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+</head>
+
+<body>
+    <div style="display: none" id="hideAll">&nbsp;</div>
+    <div>
+        <div class="row">
+            <div class="col-md-5 col-sm-6 right">
+                <h3 class="firstRow">Тодор Атанасов</h3>
+                <h3>Програмист уеб сайтове</h3>
+                <h3>България</h3>
+            </div>
+            <div class="col-md-5 col-sm-6 col-md-offset-2">
+                <div class="row">
+                    <div class="col-md-3" id="portrait-container">
+                        <img src="images/portrait.jpg" alt="portrait" id="portrait">
+                    </div>
+                    <div class="col-md-9">
+                        <h3 class="firstRow">Контакт:</h3>
+                        <h3><a href="mailto:toshkatta@gmail.com?subject=feedback">toshkatta@gmail.com</a></h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row push-top">
+            <div class="col-md-1 col-md-offset-4 col-xs-3 col-xs-offset-1">
+                <a href="https://github.com/toshkatta" id="git"></a>
+            </div>
+            <div class="col-md-1 col-md-offset-1 col-xs-3 col-xs-offset-1">
+                <a href="https://softuni.bg/users/profile/show/atanasovam" id="soft"></a>
+            </div>
+            <div class="col-md-1 col-xs-3 col-xs-offset-1">
+                <a href="http://www.codecademy.com/toshkatta" id="code"></a>
+            </div>
+        </div>
+        <div>
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2 col-sm-12 project">
+                    <h1 class="centered">Работен опит:</h1>
+                    <div class="panel panel-primary centered">
+                        <div class="panel-heading">
+                            <h5 class="panel-title">07.2015 - днес</h5>
+                        </div>
+                        <div class="panel-body">
+                            <p>Работя като middleware web developer за голям проект, който все още се разработва и не е достъпен публично. Използва се <span class="bolded">Jade</span>, <span class="bolded">Sass</span>, <span class="bolded">AngularJS</span> и <span class="bolded">Webpack</span> на front end и <span class="bolded">PostgreSQL</span> и <span class="bolded">NodeJS</span> на back end.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2 col-sm-12 project">
+                    <h1 class="centered">Лични проекти:</h1>
+                    <div class="panel panel-warning centered">
+                        <div class="panel-heading">
+                            <h5 class="panel-title">Gallery</h5>
+                        </div>
+                        <div class="panel-body">
+                            <div id="gallery" class="preview"></div>
+                            <p>Семпъл <span class="bolded">MEAN</span> stack сайт, който правих за интервю.</p>
+                            <h5 class="centered"><a href="https://github.com/toshkatta/Gallery-1.1">GitHub</a></h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <h1 class="centered">SoftUni проекти:</h1>
+                <div class="col-md-6 col-sm-12 project">
+                    <div class="panel panel-success centered">
+                        <div class="panel-heading">
+                            <h5 class="panel-title">AngularJS личен проект</h5>
+                        </div>
+                        <div class="panel-body">
+                            <div id="social-network" class="preview"></div>
+                            <p>Задачата бе да се измисли дизайнът и да се имплементира социална мрежа като едностранично приложение (SPA), като се използва <span class="bolded">HTML5</span> и <span class="bolded">AngularJS</span>. Приложението трябва да има потребители като всеки потребител има стена и приятели. Ако двама потребители са приятели, те могат да виждат стените си и да добавят постове на тях. Постовете могат да бъдат коментирани. Потребителите могат да изпращат покани за приятелство на други потребители, да приемат или да отказват покани. Анонимните посетители на сайта имат достъп само до вход и регистрация. Потребителите, успешно влезнали в системата, имат достъп до изход. Сървърните REST услуги са дадени от SoftUni, за да бъдат извиквани от проложението чрез AJAX заявки, за да не се налага да пишем back-end.</p>
+                                <h5 class="centered"><a href="https://github.com/toshkatta/Angular-Project">GitHub</a></h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12 project">
+                    <div class="panel panel-success centered">
+                        <div class="panel-heading">
+                            <h5 class="panel-title">HTML &amp; CSS екипен проект</h5>
+                        </div>
+                        <div class="panel-body">
+                            <div id="nak" class="preview"></div>
+                            <p>Задачата е да се измисли дизайнът и да се имплементира забавен website за SoftUni, като се използва <span class="bolded">HTML</span>, <span class="bolded">CSS</span> и по желание <span class="bolded">JavaScript</span>. Сайтът може да съдържа шеги, смешни картинки, забавни видеа, произведения на изкуството, смешки за програмисти или каквото и да било друго, което хората в Софтуерния университет биха намерили за смешно, забавляващо, приятно и да ги накара да се усмихнат. Шегите могат да бъдат насочени към екипа на SoftUni (преподавателите), студентите, залите, курсовете, обучителните видеа, домашните, изпитите и т.н.</p>
+                            <h5 class="centered"><a href="https://github.com/CoolBlack/HTML-CSSProject">GitHub</a></h5>
+                            <h5 class="centered"><a href="https://cdn.rawgit.com/CoolBlack/HTML-CSSProject/master/HomePage.html">Визуализация (NSFW - съдържа една от любимите песни на Наков)</a></h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h1 class="centered">Образование</h1>
+                <h2 class="centered">Software University</h2>
+                <h3 class="centered">07.2014 - 07.2015</h3>
+                <div>
+                    <h3 class="centered">Сертификати: <a href="https://softuni.bg/Certificates/Details/1624/265006fc">Ниво 1</a>, <a href="https://softuni.bg/Certificates/Details/2220/9c32065a">OOP</a>, <a href="https://softuni.bg/Certificates/Details/5725/6fe58de3">AngularJS</a>, <a href="https://softuni.bg/Certificates/Details/5250/96c1bc99">JS Apps</a></h3>
+                    <h4 class="centered">Ниво 2</h4>
+                    <div class="row">
+                        <div class="project col-md-3 col-sm-12">
+                            <div class="panel panel-primary">
+                                <div class="panel-heading">
+                                    <h5 class="panel-title">Обектно ориентирано програмиране:</h5>
+                                    <h5>C#, Java, PHP</h5>
+                                </div>
+                                <div class="panel-body">
+                                    <p>ООП парадигми</p>
+                                    <p>Работа с класове и обекти</p>
+                                    <p>Обектно ориентирано моделиране</p>
+                                    <p>Лласова йерархия</p>
+                                    <p>Абстракция(интерфейси и абстрактни класове)</p>
+                                    <p>Капсулация</p>
+                                    <p>Наследяване</p>
+                                    <p>Полиморфизъм</p>
+                                    <p>Event-driven programming</p>
+                                    <p>Функционално програмиране(ламбда функции, closures, LINQ)</p>
+                                    <p>Работа с грешки</p>
+                                    <p>Клониране, сравняване и обхождане на обекти</p>
+                                    <p>Шаблони за дизайн</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project col-md-2 col-sm-12">
+                            <div class="panel panel-primary">
+                                <div class="panel-heading">
+                                    <h5 class="panel-title">Advanced Javascript:</h5>
+                                </div>
+                                <div class="panel-body">
+                                    <p>Работа с функции и изрази</p>
+                                    <p>Веднага извикващи се функции</p>
+                                    <p>Работа с обекти</p>
+                                    <p>Конструктори</p>
+                                    <p>Полета</p>
+                                    <p>Методи</p>
+                                    <p>Proto, prototype и прототипно наследяване</p>
+                                    <p>Работа с модули и създаване на private полета</p>
+                                    <p>RequireJS</p>
+                                    <p>Работа с грешки</p>
+                                    <p>Добри практики</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project col-md-2 col-sm-12">
+                            <div class="panel panel-primary">
+                                <div class="panel-heading">
+                                    <h5 class="panel-title">JavaScript Applications:</h5>
+                                </div>
+                                <div class="panel-body">
+                                    <p>jQuery</p>
+                                    <p>Sammy</p>
+                                    <p>Mustache</p>
+                                    <p>Handlebars</p>
+                                    <p>Underscore</p>
+                                    <p>REST услуги</p>
+                                    <p>Използване на BaaS в Parse.com</p>
+                                    <p>HTTP</p>
+                                    <p>AJAX</p>
+                                    <p>JSON</p>
+                                    <p>Web storages</p>
+                                    <p>Q promises</p>
+                                    <p>Компонентно тестване с Jasmine</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project col-md-3 col-sm-12">
+                            <div class="panel panel-primary">
+                                <div class="panel-heading">
+                                    <h5 class="panel-title">JavaScript Frameworks</h5>
+                                    <h5>SPA with AngularJS:</h5>
+                                </div>
+                                <div class="panel-body">
+                                    <p>MVC архитектура</p>
+                                    <p>Шаблони</p>
+                                    <p>Директиви</p>
+                                    <p>Филтри</p>
+                                    <p>Услуги</p>
+                                    <p>Рутиране</p>
+                                    <p>Data binding</p>
+                                    <p>Dependency injection</p>
+                                    <p>Компонентно тестване</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project col-md-2 col-sm-12">
+                            <div class="panel panel-primary">
+                                <div class="panel-heading">
+                                    <h5 class="panel-title">High-Quality Code</h5>
+                                    <h5>C#, Java, JavaScript, PHP:</h5>
+                                </div>
+                                <div class="panel-body">
+                                    <p>Именуване на идентификатори</p>
+                                    <p>Форматиране на кода</p>
+                                    <p>Работа с променливи, типове данни, изрази и константи</p>
+                                    <p>Висококачествени методи и класове</p>
+                                    <p>Loose coupling</p>
+                                    <p>Strong cohesion</p>
+                                    <p>Документация и коментари</p>
+                                    <p>Рефакториране</p>
+                                    <p>Компонентно тестване</p>
+                                    <p>Мокване</p>
+                                    <p>Дебъгване</p>
+                                    <p>Оптимизация на кода</p>
+                                    <p>SOLID</p>
+                                    <p>Шаблони за дизайн</p>
+                                    <p>Test-driven development</p>
+                                    <p>Техники и инструменти за подобряване на качеството на кода</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="centered">Level 1</h4>
+                    <div class="row">
+                        <div class="project col-md-6 col-sm-12">
+                            <div class="panel panel-info">
+                                <div class="panel-heading">
+                                    <h5 class="panel-title">Начални умения:</h5>
+                                    <h5>C#, Java, Javascript, PHP</h5>
+                                </div>
+                                <div class="panel-body">
+                                    <p>Използване на различни типове данни</p>
+                                    <p>Променливи</p>
+                                    <p>Разработка с IDE-та</p>
+                                    <p>Оператори</p>
+                                    <p>Изрази</p>
+                                    <p>Условни конструкции</p>
+                                    <p>Вход и изход на конзолата</p>
+                                    <p>Цикли</p>
+                                    <p>Методи</p>
+                                    <p>Дефиниране и използване на прости класове</p>
+                                    <p>Масиви</p>
+                                    <p>Списъци</p>
+                                    <p>Низове</p>
+                                    <p>Речници</p>
+                                    <p>Множества</p>
+                                    <p>Асоциативни масиви</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project col-md-6 col-sm-12">
+                            <div class="panel panel-info">
+                                <div class="panel-heading">
+                                    <h5 class="panel-title">Web фундаменти:</h5>
+                                    <h5>HTML5, CSS3, DOM</h5>
+                                </div>
+                                <div class="panel-body">
+                                    <p>HTML тагове</p>
+                                    <p>Семантичен HTML</p>
+                                    <p>CSS селектори</p>
+                                    <p>Работа с класове и id-та</p>
+                                    <p>SASS</p>
+                                    <p>LESS</p>
+                                    <p>Responsive design</p>
+                                    <p>Bootstrap</p>
+                                </div>
+                            </div>
+                            <div class="panel panel-info">
+                                <div class="panel-heading">
+                                    <h5 class="panel-title">Работа в екип и личностни умения:</h5>
+                                </div>
+                                <div class="panel-body">
+                                    <p>Ефективна работа в екип</p>
+                                    <p>Работа със системи за source control</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h1 class="centered">Доплънително образование</h1>
+                    <div class="row">
+                        <div class="project col-md-6 col-md-offset-3 col-sm-12">
+                            <h5 class="centered">Завърших HTML &amp; CSS, JavaScript и PHP курсовете на Codecademy.</h5>
+                            <div class="panel panel-warning centered">
+                                <div class="panel-heading">
+                                    <h5 class="panel-title">АМТИИ Пловдив</h5>
+                                    <h5>2010-2016</h5>
+                                </div>
+                                <div class="panel-body">
+                                    <p>Бакалавър - педагогика на обучението по изобразително изкуство</p>
+                                    <p>Магистър - PR на арторганизации</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+    document.getElementById("hideAll").style.display = "block";
+    window.onload = function() {
+        document.getElementById("hideAll").style.display = "none";
+    }
+    </script>
+</body>
+
+</html>
