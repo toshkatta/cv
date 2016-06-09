@@ -108,6 +108,7 @@ a:hover {
 body {
     font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 18px;
+    background-color: #F3F3F3;
 }
 
 h1,
@@ -160,3 +161,15 @@ h6,
 .bolded {
 	font-weight: 500;
 }
+
+#hideAll
+ {
+   position: fixed;
+   left: 0px;
+   right: 0px;
+   top: 0px;
+   bottom: 0px;
+   background-color: white;
+   z-index: 99; /* Higher than anything else in the document */
+
+ }

@@ -11,6 +11,7 @@
 </head>
 
 <body>
+    <div style="display: none" id="hideAll">&nbsp;</div>
     <div>
         <div class="row">
             <div class="col-md-5 col-sm-6 right">
@@ -26,7 +27,6 @@
                     <div class="col-md-9">
                         <h3 class="firstRow">Contacts:</h3>
                         <h3><a href="mailto:toshkatta@gmail.com?subject=feedback">toshkatta@gmail.com</a></h3>
-                        <h3>0883 50 42 50</h3>
                     </div>
                 </div>
             </div>
@@ -45,7 +45,7 @@
         <div>
             <div class="row">
                 <div class="col-md-8 col-md-offset-2 col-sm-12 project">
-                	<h1 class="centered">Work Experience:</h1>
+                    <h1 class="centered">Work Experience:</h1>
                     <div class="panel panel-primary centered">
                         <div class="panel-heading">
                             <h5 class="panel-title">07.2015 - Present</h5>
@@ -57,14 +57,14 @@
                 </div>
             </div>
             <div class="row">
-            	<div class="col-md-8 col-md-offset-2 col-sm-12 project">
-                	<h1 class="centered">Personal Projects:</h1>
+                <div class="col-md-8 col-md-offset-2 col-sm-12 project">
+                    <h1 class="centered">Personal Projects:</h1>
                     <div class="panel panel-warning centered">
                         <div class="panel-heading">
                             <h5 class="panel-title">Gallery</h5>
                         </div>
                         <div class="panel-body">
-                        	<div id="gallery" class="preview"></div>
+                            <div id="gallery" class="preview"></div>
                             <p>A simple <span class="bolded">MEAN</span> stack gallery website I did for an interview.</p>
                             <h5 class="centered"><a href="https://github.com/toshkatta/Gallery-1.1">GitHub</a></h5>
                         </div>
@@ -79,7 +79,7 @@
                             <h5 class="panel-title">AngularJS personal project</h5>
                         </div>
                         <div class="panel-body">
-                        	<div id="social-network" class="preview"></div>
+                            <div id="social-network" class="preview"></div>
                             <p>I was tasked to design and implement a Social Network as single page application (SPA) using <span class="bolded">HTML5</span> and <span class="bolded">AngularJS</span>. The app had to have users with each user having a wall and friends. Friends can see each other's walls and add posts to them which can be commented. Users can send friend requests to each other and approve or reject said requests. Anonymous site visitors can only login and register. Logged in users can logout. I was given the server-side REST services to be called by my app with AJAX requests so I didn't need to develop back-end.</p>
                             <h5 class="centered"><a href="https://github.com/toshkatta/Angular-Project">GitHub</a></h5>
                         </div>
@@ -91,7 +91,7 @@
                             <h5 class="panel-title">HTML &amp; CSS team project</h5>
                         </div>
                         <div class="panel-body">
-                        	<div id="nak" class="preview"></div>
+                            <div id="nak" class="preview"></div>
                             <p>The task was to design and implement a funny website about SoftUni using <span class="bolded">HTML</span>, <span class="bolded">CSS</span> and optionally <span class="bolded">JavaScript</span>. The site should contain jokes, funny pictures, videos and/or artwork, developer jokes or anything else that the people at the Software University could find funny, entertaining and enjoyable. The jokes could involve the people at SoftUni (e.g. the trainers), the students, the training labs, facilities, courses and videos, homework, the exams, etc.</p>
                             <h5 class="centered"><a href="https://github.com/CoolBlack/HTML-CSSProject">GitHub</a></h5>
                             <h5 class="centered"><a href="https://cdn.rawgit.com/CoolBlack/HTML-CSSProject/master/HomePage.html">Preview (NSFW - contains one of Nakov's favourite songs)</a></h5>
@@ -104,7 +104,7 @@
                 <h2 class="centered">Software University</h2>
                 <h3 class="centered">07.2014 - 07.2015</h3>
                 <div>
-                	<h3 class="centered">Certificates: <a href="https://softuni.bg/Certificates/Details/1624/265006fc">Level 1</a>, <a href="https://softuni.bg/Certificates/Details/2220/9c32065a">OOP</a>, <a href="https://softuni.bg/Certificates/Details/5725/6fe58de3">AngularJS</a>, <a href="https://softuni.bg/Certificates/Details/5250/96c1bc99">JS Apps</a></h3>
+                    <h3 class="centered">Certificates: <a href="https://softuni.bg/Certificates/Details/1624/265006fc">Level 1</a>, <a href="https://softuni.bg/Certificates/Details/2220/9c32065a">OOP</a>, <a href="https://softuni.bg/Certificates/Details/5725/6fe58de3">AngularJS</a>, <a href="https://softuni.bg/Certificates/Details/5250/96c1bc99">JS Apps</a></h3>
                     <h4 class="centered">Level 2</h4>
                     <div class="row">
                         <div class="project col-md-3 col-sm-12">
@@ -277,26 +277,32 @@
                     </div>
                 </div>
                 <div>
-                	<h1 class="centered">Additional education</h1>
+                    <h1 class="centered">Additional education</h1>
                     <div class="row">
-                    	<div class="project col-md-6 col-md-offset-3 col-sm-12">
-	                        <h5 class="centered">Completed the HTML &amp; CSS, JavaScript and PHP classes at Codecademy.</h5>
-	                        <div class="panel panel-warning centered">
-	                            <div class="panel-heading">
-	                                <h5 class="panel-title">Art academy Plovdiv</h5>
-	                                <h5>2010-2016</h5>
-	                            </div>
-	                            <div class="panel-body">
-	                                <p>Bachelor's degree in Pedagogy of Art Teaching</p>
-	                                <p>Master's degree in PR of Art Organizations</p>
-	                            </div>
-	                        </div>
+                        <div class="project col-md-6 col-md-offset-3 col-sm-12">
+                            <h5 class="centered">Completed the HTML &amp; CSS, JavaScript and PHP classes at Codecademy.</h5>
+                            <div class="panel panel-warning centered">
+                                <div class="panel-heading">
+                                    <h5 class="panel-title">Art academy Plovdiv</h5>
+                                    <h5>2010-2016</h5>
+                                </div>
+                                <div class="panel-body">
+                                    <p>Bachelor's degree in Pedagogy of Art Teaching</p>
+                                    <p>Master's degree in PR of Art Organizations</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <script type="text/javascript">
+	    document.getElementById("hideAll").style.display = "block";
+	    window.onload = function() {
+	        document.getElementById("hideAll").style.display = "none";
+	    }
+    </script>
 </body>
 
 </html>
